@@ -1,0 +1,39 @@
+
+.link{
+    text-decoration: none;
+    color:#2D4C6D;
+}
+
+nav{
+    background-color: #2D4C6D;
+    height: 60px;
+    display: flex;
+    justify-content:flex-start;
+    color: white;
+    border-bottom: 1px solid #4B545C;
+    background-color: white;
+    color:#4B545C;
+}  
+
+#toggle-btn{
+    color: #4B545C;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 280px;
+    line-height:60px;
+}
+
+ul > li{
+    margin-right: 10px;
+}
+
+@media(max-width:560px){
+    ul{
+        margin: 0 auto;
+    }
+
+}
+
