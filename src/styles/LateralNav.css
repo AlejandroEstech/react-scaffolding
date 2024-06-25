@@ -7,8 +7,13 @@ body {
   .app {
     display: flex;
   }
+
   
-  #sidebar {
+  #sidebar .selectedLink{
+    background-color:#1c3a5a
+  }
+  
+  #sidebar {  
     margin-top: 60px;
     height: 100vh;
     width: 220px;
@@ -32,7 +37,7 @@ body {
   }
   
   #sidebar a:hover {
-    background-color: #575757;
+    background-color: #1c3a5a
   }
 
   
