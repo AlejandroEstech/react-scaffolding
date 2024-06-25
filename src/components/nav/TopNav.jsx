@@ -14,10 +14,10 @@ function TopNav({isCollapsed}) {
                            <Link to='/dashboard' className='link'>Home</Link>
                         </li>
                         <li>
-                           <Link to='/nosotros' className='link'>Nosotros</Link>
+                           <Link to='/us' className='link'>Nosotros</Link>
                         </li>
                         <li>
-                           <Link to='/contacto' className='link'>Contacto</Link>
+                           <Link to='/contact' className='link'>Contacto</Link>
                         </li>
                     </ul>
                 </nav>

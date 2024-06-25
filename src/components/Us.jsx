@@ -1,13 +1,13 @@
 import React from 'react'
 import LateralNav from './nav/LateralNav'
 
-function Contacto() {
+function Us() {
     return (
         <>
             <LateralNav />
-            <div id='main'>Contacto</div>
+            <h2 id='main'>Nosotros</h2>
         </>
       )
 }
 
-export default Contacto
+export default Us

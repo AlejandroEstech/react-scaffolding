@@ -7,7 +7,7 @@ function Dashboard() {
   return (
     <>
         <LateralNav  />
-        <div id='main'>Dashboard</div>
+        <h2 id='main'>Dashboard</h2>
     </>
   )
 }

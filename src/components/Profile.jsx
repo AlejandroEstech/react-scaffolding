@@ -1,11 +1,15 @@
 import React from 'react'
+import LateralNav from './nav/LateralNav'
 
 
 function Profile() {
   return (
-    <div id='main'>
-      <h2>Profile</h2>
-    </div>
+    <>
+      <LateralNav />
+      <div id='main'>
+        <h2>Profile</h2>
+      </div>
+    </>
  
   )
 }

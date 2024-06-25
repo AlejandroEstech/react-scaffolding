@@ -14,12 +14,21 @@ function LateralNav() {
 
   return (
     <>
-
       <TopNav isCollapsed={collapsed} />
       <span id="toggle-btn" onClick={handleCLick}>&#9776;</span> 
       <div id="sidebar" className={collapsed ? 'collapsed' : ''}>
-            <Link to='/profile' className='link'>Perfil de usuario</Link>
-            <Link to='/profile' className='link'>Mensajería</Link>
+
+            <Link to='/profile' className='link'>
+              <i class='bx bxs-user me-1'></i>Perfil de usuario
+            </Link>
+
+            <Link to='/messages' className='link'>
+              <i class='bx bxs-chat me-1' ></i>Mensajería
+            </Link>
+
+            <Link to='/settings' className='link'>
+              <i class='bx bx-cog me-1'></i>Configuración
+            </Link>
         </div>
     </>
   )

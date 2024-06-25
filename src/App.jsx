@@ -1,12 +1,14 @@
 
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Profile from './components/Profile';
-import Home from './components/Home';
 import Dashboard from './components/Dashboard';
-import Contacto from './components/Contacto';
-import Nosotros from './components/Nosotros';
+import Message from './components/Message';
+import Contact from './components/Contact';
+import Us from './components/Us';
+import Settings from './components/Settings';
+
 
 function App() {
   return (
@@ -15,8 +17,10 @@ function App() {
         <Routes>
           <Route path='/profile' element={<Profile />} />
           <Route path='/dashboard' element={<Dashboard />} />
-          <Route path='/contacto' element={<Contacto />} />
-          <Route path='/nosotros' element={<Nosotros />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/us' element={<Us />} />
+          <Route path='/messages' element={<Message />} />
+          <Route path='/settings' element={<Settings />} />
         </Routes>
       </BrowserRouter>
     </>
