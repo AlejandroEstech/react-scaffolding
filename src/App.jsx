@@ -8,6 +8,7 @@ import Message from './components/Message';
 import Contact from './components/Contact';
 import Us from './components/Us';
 import Settings from './components/Settings';
+import Login from './components/Login';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          <Route path='/' element={ <Login /> } />
           <Route path='/profile' element={<Profile />} />
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/contact' element={<Contact />} />

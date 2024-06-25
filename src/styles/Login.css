@@ -1,0 +1,16 @@
+
+.login_form{
+    width: 400px;
+    background-color: white;
+    padding: 20px 50px;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login_page {
+    height: 100vh;
+    width: 100%;
+    background-color: #2D4C6D;
+  }
